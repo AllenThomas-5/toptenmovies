@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Top 10 Movies of the Year</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <h1>Top 10 Movies Of The Year</h1>
+            </div>
+            
+        </div>
+    </header>
+  
+        <section>
+            <div class="container">
+                <div class="selectmovie-title">
+                    <h2> Select the Year</h2>
+                </div>
+                <div class="selectmovie-body">
+                    <input type="number" id="movieyear" name="movieyear" placeholder="Enter the year" min="1900" max="3000" value="2021" maxlength="4">
+                    <button class="mv-btn" id="search">Search</button>
+                    <button class="mv-btn" id="reset"> Reset</button>
+                </div>
+                <div class="error-message">
+                    <p id="error"></p>
+                </div>
+            </div>
+            
+        </section>
+        <section>
+            <div class="container">
+                <div class="movie-list-heading">
+                    <h2 id="year-heading">Showing top 10 movies of the year : </h2>
+                </div>
+                <div class="movie-list">
+                  <!-- An HTML snippet of the movie card
+                      <div class="mvcard">
+                        <img src="https://via.placeholder.com/350" alt="">
+                        <div class="mvcard-body">
+                            <h2>Movie Title</h2>
+                            <h4>Date:</h4>
+                            <p>Movie Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, iure?</p>
+                        </div>
+                    </div>  -->
+                    
+                </div>
+            </div>
+        </section>
+    <footer>
+        <section>
+            <div class="container-footer">
+               <p>
+                Top Movie Listing Website &copy; Movies powered by TMDB
+               </p> 
+            </div>
+        </section>
+        <section>
+            <div class="footer-logo-img">
+                <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="">
+            </div>
+        </section>
+    </footer>
+    <script src="movie.js"></script>
+</body>
+</html>
