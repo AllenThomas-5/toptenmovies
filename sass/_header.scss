@@ -1,0 +1,17 @@
+header {
+    min-height: 200px;
+    margin:auto;
+    background-color:$dark-yellow;
+}
+
+.header-title{
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        color:$secondary;
+    }
+}

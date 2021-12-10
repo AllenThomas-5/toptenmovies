@@ -1,0 +1,146 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+body {
+  background-color: rgba(234, 226, 183, 0.205);
+}
+
+header {
+  min-height: 200px;
+  margin: auto;
+  background-color: #FCBF49;
+}
+
+.header-title {
+  padding: 20px;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #003049;
+}
+
+.error-message p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  color: red;
+}
+
+.container {
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.container-footer {
+  padding: 50px;
+  margin-bottom: 0px;
+}
+
+.mv-btn {
+  background-color: #F77F00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.mv-btn:hover {
+  background-color: #FCBF49;
+}
+
+.selectmovie-body input[type="number"] {
+  padding: 12px;
+  height: 50px;
+  width: 300px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.selectmovie-title h2, #year-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #003049;
+  border-bottom: 1px solid #F77F00;
+  padding: 5px;
+  margin: 1rem;
+}
+
+/* Movive Listing Style*/
+.movie-list {
+  padding: 50px;
+  margin: 10px;
+  background-color: rgba(234, 226, 183, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.mvcard-body h2, .mvcard-body h4 {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.mvcard {
+  border-bottom: 4px solid #FCBF49;
+  background-color: #faf9f0;
+  overflow: hidden;
+}
+
+.mvcard img {
+  margin-left: 30px;
+}
+
+.mvcard-body {
+  padding: 10px;
+}
+
+.mvcard-body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #003049;
+}
+
+.mvcard-body h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: 1px solid #003049;
+}
+
+footer {
+  background-color: #FCBF49;
+}
+
+.footer-logo-img {
+  background-color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */

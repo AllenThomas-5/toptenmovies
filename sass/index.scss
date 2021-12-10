@@ -1,0 +1,58 @@
+// Import the default styles
+@import 'baseSytle';
+
+// Import styles for header
+@import 'header';
+
+.error-message p{
+@include movieDefaultFont(300,14);
+ padding: $base-padding;
+ margin: $base-margin;
+ color: red;
+    }
+
+.container{
+    padding: $base-padding * 5;
+    margin-bottom: $base-margin;
+}
+
+.container-footer {
+    padding: $base-padding * 5;
+    margin-bottom: 0px;
+}
+
+// Import button styles
+@import 'button';
+
+
+.selectmovie-body input[type="number"]{
+    padding: 12px;
+    height: 50px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.selectmovie-title h2, #year-heading    {
+    @include movieDefaultFont(400,32);
+    color: $secondary;
+    border-bottom: $orange-line;
+    padding: 5px;
+    margin: 1rem;
+    }
+
+/* Movive Listing Style*/
+.movie-list{
+    padding:$base-padding * 5;
+    margin: $base-margin;
+    background-color:rgba(234,226,183, 0.5);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1em;
+}
+
+// Import the styles for the card on which the movies are displayed.
+@import 'card';
+
+// Import the styles for footer.
+@import 'footer';

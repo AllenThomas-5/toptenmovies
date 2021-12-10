@@ -1,0 +1,44 @@
+// theme colors
+$primary: #F77F00 !default;
+$secondary: #003049 !default;
+$error: #D62828 !default;
+$dark-yellow: #FCBF49 !default;
+$light-yellow: #EAE2B7 !default;
+
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+// Font Mixin
+@mixin movieDefaultFont($fontWeight: 300, $fontSize:14){
+
+    font-family: 'Poppins', sans-serif;
+    font-weight:$fontWeight;
+    font-size: $fontSize +0px;
+}
+
+// Lines
+$orange-line:1px solid $primary;
+$blue-line: 1px solid $secondary;
+
+// Base margins and paddings
+$base-padding:10px;
+$base-margin:10px;
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    @include movieDefaultFont(300);
+    // font-family: 'Poppins', sans-serif;
+    // font-weight: 300;
+}
+
+body {
+    background-color: rgba(234, 226, 183, 0.205);
+}
+

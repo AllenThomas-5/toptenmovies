@@ -1,0 +1,32 @@
+%card-spacing {
+    padding:$base-padding / 2;
+    margin-bottom: $base-margin /2;
+}
+
+
+.mvcard{
+    border-bottom: 4px solid $dark-yellow;
+    background-color: rgb(250,249, 240);
+    overflow: hidden;
+
+    img {
+        margin-left: $base-margin * 3;
+    }
+}
+
+.mvcard-body{
+    padding:$base-padding;
+
+    h2 {
+        @extend %card-spacing;
+        @include movieDefaultFont(400,24); // movieDefaultFont mixin in baseStyle.scss
+        color: $secondary;
+    }
+    
+    h4 {
+        @extend %card-spacing;
+        @include movieDefaultFont(400,16);
+        border-bottom: $blue-line;
+    }
+
+}
